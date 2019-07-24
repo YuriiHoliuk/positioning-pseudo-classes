@@ -1,0 +1,57 @@
+body,
+h1 {
+    margin: 0;
+}
+
+.cover {
+    min-height: 300px;
+
+    background: url('https://wallup.net/wp-content/uploads/2016/01/178583-fish-animals-nature-sea.jpg') no-repeat;
+    background-size: cover;
+}
+
+.l-letter {
+    width: 150px;
+    height: auto;
+}
+
+.close {
+    border: none;
+    background: none;
+}
+
+.close > img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer,
+.header {
+    min-height: 50px;
+}
+
+.header {
+    background-color: rebeccapurple;
+}
+
+.footer {
+    background-color: darkblue;
+    color: honeydew;
+}
+
+.footer > p {
+    margin-bottom: 0;
+}
+
+.lorems {
+    padding: 40px 400px 40px 100px;
+}
+
+.lorem {
+    padding: 50px 50px 20px 20px;
+    border: 5px solid peachpuff;
+}
+
+.lorem + .lorem {
+    margin-top: 40px;
+}
