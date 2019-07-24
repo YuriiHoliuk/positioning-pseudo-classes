@@ -14,35 +14,10 @@ h1 {
     position: relative;
 }
 
-.list {
+.menu {
     position: absolute;
     right: 50px;
     top: 50px;
-}
-
-.close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-}
-
-.l-letter {
-    width: 150px;
-    height: auto;
-    float: left;
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.close {
-    border: none;
-    background: none;
-}
-
-.close > img {
-    width: 30px;
-    height: 30px;
 }
 
 .footer,
@@ -89,14 +64,21 @@ h1 {
 .l-letter {
     width: 150px;
     height: auto;
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.close {
+.close-btn {
     border: none;
     background: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
-.close > img {
+.close-btn > img {
     width: 30px;
     height: 30px;
 }
