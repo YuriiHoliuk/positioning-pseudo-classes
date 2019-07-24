@@ -10,6 +10,41 @@ h1 {
     background-size: cover;
 }
 
+.container {
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.l-letter {
+    width: 150px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.close {
+    border: none;
+    background: none;
+}
+
+.close > img {
+    width: 30px;
+    height: 30px;
+}
+
 .footer,
 .header {
     min-height: 50px;
@@ -17,11 +52,16 @@ h1 {
 
 .header {
     background-color: rebeccapurple;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .footer {
     background-color: darkblue;
     color: honeydew;
+    position: sticky;
+    bottom: 0;
 }
 
 .footer > p {
@@ -33,8 +73,13 @@ h1 {
 }
 
 .article-section {
+    position: relative;
     padding: 50px 50px 20px 20px;
     border: 5px solid peachpuff;
+}
+
+.article-section:nth-child(odd) {
+    left: 50px;
 }
 
 .article-section + .article-section {
